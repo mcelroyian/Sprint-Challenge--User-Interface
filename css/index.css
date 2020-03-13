@@ -97,6 +97,8 @@ header img {
 
 /* ### END HEADER CODE ### */
 
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -137,6 +139,50 @@ header img {
     align-items: center;
     justify-content: center;
 }
+
+/* ### BOX COLORS ### */
+
+.middle-content .boxes .box.box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box.box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box.box3 {
+    background-color:cadetblue;
+}
+
+.middle-content .boxes .box.box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box.box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box.box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box.box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box.box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box.box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box.box10 {
+    background-color: dodgerblue;
+}
+
+/* ### END BOX COLORS ### */
 
 .bottom-content {
     display: flex;
