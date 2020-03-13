@@ -82,6 +82,16 @@ p {
 
 .top-nav a {
     padding: 2% 0;
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 100%;
 }
 
 
