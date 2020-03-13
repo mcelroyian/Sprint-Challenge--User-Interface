@@ -71,6 +71,35 @@ p {
     margin: 0 auto;
 }
 
+/* ### HEADER CODE ### */
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 20px auto;
+    width:100%;
+}
+
+.top-nav a {
+    padding: 2% 0;
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 100%;
+}
+
+
+/* ### END HEADER CODE ### */
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,9 +114,40 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content .text-container.about {
+    width:100%;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.middle-content.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 1%;
+    border-bottom: none;
+}
+
+.middle-content.about .fact{
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.middle-content.about .fact h2{
+    padding: 2% 0px;
+    
+}
+
+.middle-content.about .fact button{
+    padding: 2% 25px;
+    margin: 4% auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
 }
 
 .middle-content h2 {
@@ -112,6 +172,50 @@ p {
     justify-content: center;
 }
 
+/* ### BOX COLORS ### */
+
+.middle-content .boxes .box.box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box.box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box.box3 {
+    background-color:cadetblue;
+}
+
+.middle-content .boxes .box.box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box.box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box.box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box.box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box.box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box.box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box.box10 {
+    background-color: dodgerblue;
+}
+
+/* ### END BOX COLORS ### */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +228,11 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom-content.about {
+    display: block;
+    
 }
 
 footer {
@@ -143,4 +252,47 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ### FORM PAGE ### */
+
+.container.contact nav, .container.contact header, .container.contact, section, .container.contact footer {
+    flex: 1;
+}
+
+section.contact {
+    margin-bottom: 20px;
+    flex: 8;
+}
+
+.form-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-container label {
+    width: 30%;
+}
+
+.form-container p {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-container input, .form-container textarea{
+    width: 60%;
+}
+
+body, html, .container.contact {
+    height: 100%;
+    min-height: 100%;
+}
+
+.container.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
 }
